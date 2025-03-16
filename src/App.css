@@ -1,0 +1,22 @@
+/* App.css */
+:root {
+    --blue: #0072BB;
+    --blue-d: #004975;
+    --white: #ffffff;
+    --white-o: rgba(255,255,255,0.3);
+    --black: #121212;
+    --black-o: rgba(18,18,18,0.5);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Playfair Display SC", serif;
+}
