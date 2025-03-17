@@ -1,15 +1,17 @@
 /* App.css */
 :root {
-    --blue: #0072BB;
-    --blue-d: #004975;
     --white: #ffffff;
     --white-o: rgba(255,255,255,0.3);
     --black: #121212;
     --black-o: rgba(18,18,18,0.5);
+    --cream: rgba(255, 253, 242,1);
 }
 
 * {
     box-sizing: border-box;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -19,4 +21,36 @@ body {
     padding: 0;
     text-align: center;
     font-family: "Playfair Display SC", serif;
+    background-color: var(--cream);
+    color: var(--black);
 }
+
+/* .Introduction h1, h2{
+    text-indent: 2vw;
+    text-align: left;
+} */
+
+img {
+    height: 10vh;
+}
+
+h1 {
+    font-size: 36pt;
+}
+h2 {
+    font-size: 24pt;
+}
+
+.Spacing-25 {
+    height: 25vh;
+}
+.Spacing-20 {
+    height: 20vh;
+}
+.Spacing-15 {
+    height: 15vh;
+}
+.Spacing-10 {
+    height: 10vh;
+}
+
