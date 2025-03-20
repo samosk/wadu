@@ -4,12 +4,13 @@
     --white-o: rgba(255,255,255,0.3);
     --black: #121212;
     --black-o: rgba(18,18,18,0.5);
-    --cream: rgba(255, 253, 242,1);
+    --background: #121212;
+    --accent: rgba(223, 255, 0, 1);
 }
 
 * {
     box-sizing: border-box;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 0;
     padding: 0;
 }
@@ -20,25 +21,44 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    font-family: "Playfair Display SC", serif;
-    background-color: var(--cream);
-    color: var(--black);
+    font-family: "Open Sans", sans-serif;
+    font-size: 16pt;
+    background-color: var(--background);
+    color: var(--white);
 }
 
-/* .Introduction h1, h2{
-    text-indent: 2vw;
+.TopText {
+    color: var(--accent);
     text-align: left;
-} */
-
-img {
-    height: 10vh;
+    margin-left: 3vh;
+    font-size: 24pt;
 }
 
 h1 {
-    font-size: 36pt;
+    font-family: "Charm", serif;
+    font-size: 48pt;
+    color: var(--accent);
 }
+
 h2 {
     font-size: 24pt;
+}
+
+.TopText h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12pt;
+}
+
+.Banner img {
+    height: 5vh;
+}
+
+.Footer {
+    height: 10vh;
+}
+
+.Picture img{
+    height: 10vh;
 }
 
 .Spacing-25 {
@@ -53,4 +73,6 @@ h2 {
 .Spacing-10 {
     height: 10vh;
 }
-
+.Spacing-5 {
+    height: 5vh;
+}
