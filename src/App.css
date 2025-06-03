@@ -10,29 +10,34 @@
 
 * {
     box-sizing: border-box;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     margin: 0;
     padding: 0;
 }
 
 body {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     margin: 0;
     padding: 0;
     text-align: center;
     font-family: "Open Sans", sans-serif;
     font-size: 16pt;
-    background-color: var(--background);
-    color: var(--white);
+    background-color: var(--white);
+    color: var(--black);
 }
 
-.TopText {
-    color: var(--accent);
-    text-align: left;
-    margin-left: 3vh;
-    font-size: 24pt;
+.navBar {
+    display: flex;
+    justify-content: center;
 }
+
+.navBar a{
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
 
 h1 {
     font-family: "Charm", serif;
@@ -44,9 +49,8 @@ h2 {
     font-size: 24pt;
 }
 
-.TopText h2 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 12pt;
+.Banner {
+    margin-top: 2vh;
 }
 
 .Banner img {
@@ -59,20 +63,4 @@ h2 {
 
 .Picture img{
     height: 10vh;
-}
-
-.Spacing-25 {
-    height: 25vh;
-}
-.Spacing-20 {
-    height: 20vh;
-}
-.Spacing-15 {
-    height: 15vh;
-}
-.Spacing-10 {
-    height: 10vh;
-}
-.Spacing-5 {
-    height: 5vh;
 }
