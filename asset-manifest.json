@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/wadu/static/css/main.abdb76d7.css",
+    "main.js": "/wadu/static/js/main.7eb68978.js",
+    "index.html": "/wadu/index.html",
+    "main.abdb76d7.css.map": "/wadu/static/css/main.abdb76d7.css.map",
+    "main.7eb68978.js.map": "/wadu/static/js/main.7eb68978.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abdb76d7.css",
+    "static/js/main.7eb68978.js"
+  ]
+}
